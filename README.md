@@ -1,6 +1,6 @@
 # OnConnect
 
-TODO: Write a gem description
+Gem that helps connect OnConnect api
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+on_connect::Movie.search('Frozen')
 
 ## Contributing
 

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = OnConnect::VERSION
   spec.authors       = ["Krystle"]
   spec.email         = ["krebates@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{API Wrapper for OnConnect}
+  spec.description   = %q{API Wrapper for OnConnect using Faraday, VCR, and RSpec}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,11 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+
+  spec.add_dependency 'faraday'
+
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'vcr'
+
+
 end

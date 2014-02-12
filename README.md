@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-on_connect::Movie.search('Frozen')
+on_connect::Movie.search('10009')
 
 ## Contributing
 

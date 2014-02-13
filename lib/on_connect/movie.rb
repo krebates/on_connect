@@ -3,9 +3,11 @@ require 'json'
 
 module OnConnect
 	class Movie
-		attr_reader :title
+		attr_reader :title, :shortDescription, :code
 			def initialize(attributes = {})
 				@title = attributes['title']
+				@short_description = attributes['shortDescription']
+				@code = attributes['code']
 			end
 
 		class << self

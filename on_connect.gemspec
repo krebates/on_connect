@@ -6,7 +6,7 @@ require 'on_connect/version'
 Gem::Specification.new do |spec|
   spec.name          = "on_connect"
   spec.version       = OnConnect::VERSION
-  spec.authors       = ["Krystle"]
+  spec.authors       = ["Krystle Bates"]
   spec.email         = ["krebates@gmail.com"]
   spec.summary       = %q{API Wrapper for OnConnect}
   spec.description   = %q{API Wrapper for OnConnect using Faraday, VCR, and RSpec}
@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'faraday'
 
   spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'webmock'
   spec.add_development_dependency 'vcr'
 
 

@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-on_connect::Movie.search('10009')
+search for local movie theaters and listings of movies using a zip code and start date. You are able to set the radius of miles for the theater from 0 - 100. 
+on_connect::Movie.search('10009', )
 
 ## Contributing
 

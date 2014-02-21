@@ -11,7 +11,7 @@ module OnConnect
 			end
 
 		class << self
-			def search(zip, startDate, radius)
+			def search_zip(zip, startDate, radius)
 				res = connection.get 'v1/movies/showings', {
 					zip: zip,
 					startDate: startDate,

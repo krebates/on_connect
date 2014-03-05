@@ -7,11 +7,5 @@ describe OnConnect::Movie, :vcr do
 		movies = OnConnect::Movie.search_zip('10009', Time.now.strftime('%Y-%m-%d'), 1)
 		expect(movies).to_not eql([])
 		expect(movies.first).to be_kind_of(OnConnect::Movie)
-
-		# expect(movies.first.title).to include('Frozen')
 	end
-
-	# it 'allows me to '
-	# end
-
 end

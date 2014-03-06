@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/on_connect.png)](http://badge.fury.io/rb/on_connect)
+
 # OnConnect
 
 Gem that helps connect OnConnect api

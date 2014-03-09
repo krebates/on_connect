@@ -3,11 +3,21 @@ require 'json'
 
 module OnConnect
 	class Movie
-		attr_reader :title, :shortDescription, :code
+		attr_reader :theatreId, :name, :location, :distance, :address, :street, :street2, :city, :state, :postalCode, :country, :telephone, :geoCode
 			def initialize(attributes = {})
-				@title = attributes['title']
-				@short_description = attributes['shortDescription']
-				@code = attributes['code']
+				@theatre_id = attributes['theatreId']
+				@name = attributes['name']
+				@location = attributes['location']
+				@distance = attributes['distance']
+				@address = attributes['address']
+				@street = attributes['street']
+				@street2 = attributes['street2']
+				@city = attributes['city']
+				@state = attributes['state']
+				@postal_code = attributes['postalCode']
+				@country = attributes['country']
+				@telephone = attributes['telephone']
+				@geo_code = attributes['geoCode']
 			end
 
 		class << self
